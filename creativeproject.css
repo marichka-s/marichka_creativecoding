@@ -1,0 +1,173 @@
+.tangerine-regular {
+  font-family: "Tangerine", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tangerine-bold {
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.zain-extralight {
+  font-family: "Zain", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.zain-light {
+  font-family: "Zain", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.zain-regular {
+  font-family: "Zain", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.zain-bold {
+  font-family: "Zain", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.zain-extrabold {
+  font-family: "Zain", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.zain-black {
+  font-family: "Zain", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.zain-light-italic {
+  font-family: "Zain", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.zain-regular-italic {
+  font-family: "Zain", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+h1, h2, p, .images, #get-it-btn {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+h1 {
+    color:rgb(102, 209, 255);
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 4vw;
+    text-align: center;
+    margin-top: 4vh;
+    text-shadow: 0 0 10vw rgb(255, 255, 255);
+
+}
+p{
+    color:snow;
+    font-family: "Tangerine", cursive;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 4vh;
+    margin-right: 4vh;
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+    linear-gradient(to top, rgba(0, 0, 0, 0.5) 4%),
+      url(bg.jpg);
+    background-size: cover; 
+    background-position: center;
+    flex-direction: column;
+    background-attachment: fixed;
+  
+}
+
+.vibe-image {
+  width: 300px;
+  height: auto;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+
+  transition: opacity 0.5s ease;
+  opacity: 1;
+ 
+}
+
+.img {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 2px solid #cccccc;
+  border-radius: 8px;
+
+}
+
+
+button { 
+  font-family: Zain, sans-serif;
+  padding: 10px 20px;
+  font-size: 22px;
+  cursor: pointer;
+  border: none;
+  background-color: deeppink;
+  color:rgb(255, 255, 255);
+  border-radius: 5px;
+   margin-top: 15px;
+    margin-bottom: 4vh;
+    margin-left: 4vh;
+    margin-right: 4vh;
+   
+}
+
+button:hover {
+  transition: 2s;
+  background-color: rgb(129, 21, 129);
+  color:white;
+  
+}
+
+h2{
+    color:snow;
+    font-family: Zain, bold;
+    margin-left: 4vh;
+    margin-right: 4vh;
+    margin-top: 2vh;
+    
+}
+
+
+
+ 
